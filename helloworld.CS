@@ -1,8 +1,12 @@
 using System;
-public class HelloWorld
+
+namespace program
 {
-  static public void main()
+  class HelloWorld
   {
-    Console.WriteLine ("Hello World!");
+    static void Main()
+    {
+      Console.WriteLine ("Hello World!");
+    }
   }
 }
